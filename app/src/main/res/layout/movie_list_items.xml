@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageViewNowPlaying"
+            style="@style/poster"/>
+
+        <TextView
+            android:id="@+id/textViewNowPlayingTitle"
+            android:text="Captain America"
+            android:layout_toRightOf="@id/imageViewNowPlaying"
+            android:layout_toEndOf="@id/imageViewNowPlaying"
+            style="@style/TextContent.Title"/>
+
+        <TextView
+            android:id="@+id/textViewNowPlayingDesc"
+            android:layout_toRightOf="@id/imageViewNowPlaying"
+            android:text="An Irish immigrant family adjusts to life in the United States, a chance to get over the lost son. They have no money and the apartment is in bad condition."
+            android:layout_below="@id/textViewNowPlayingTitle"
+            android:layout_toEndOf="@id/imageViewNowPlaying"
+            style="@style/TextContent.SubDesc" />
+
+        <TextView
+            android:id="@+id/textViewNowPlayingTanggal"
+            android:layout_toRightOf="@id/imageViewNowPlaying"
+            android:layout_below="@id/textViewNowPlayingDesc"
+            android:text="Wednesday, Dec 21, 2016"
+            style="@style/TextContent" />
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/imageViewNowPlaying"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/buttonNowPlayingDetail"
+                android:text="@string/detail"
+                style="@style/ButtonGeneral" />
+            <Button
+                android:id="@+id/buttonNowPlayingShare"
+                android:text="@string/share"
+                style="@style/ButtonGeneral" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

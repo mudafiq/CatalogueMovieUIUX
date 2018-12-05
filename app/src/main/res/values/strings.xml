@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Catalogue Movie UI UX</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Change Language Settings</string>
+    <string name="search">Search</string>
+    <string name="nowplaying">Now Playing</string>
+    <string name="upcoming">Up Coming</string>
+    <string name="profilename">Mudafiq Riyan Pratama</string>
+    <string name="profileemail">mudafiq.riyan@gmail.com</string>
+    <string name="search_hint">Type movie title</string>
+    <string name="detail">DETAIL</string>
+    <string name="share">SHARE</string>
+    <string name="release_date">Release Date</string>
+    <string name="rating">Rating</string>
+</resources>

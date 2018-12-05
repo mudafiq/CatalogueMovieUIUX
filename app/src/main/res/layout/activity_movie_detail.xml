@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".ui.MovieDetailActivity">
+
+    <TextView
+        android:id="@+id/textViewDetailTitle"
+        android:layout_marginBottom="10dp"
+        android:text="Captain America: The First Avenger"
+        android:textSize="20dp"
+        style="@style/TextContent.Title" />
+    <ImageView
+        android:id="@+id/imageViewBackdrop"
+        android:layout_below="@id/textViewDetailTitle"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="150dp" />
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_below="@id/imageViewBackdrop"
+        android:orientation="horizontal"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/rating"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/release_date"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@id/linearLayout1"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textViewDetailRating"
+            android:text="7.8"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textViewDetailReleaseDate"
+            android:text="Wed, May 03, 2016"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewDetailDesc"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/linearLayout2"
+        android:text="Predominantly set during World War II, Steve Rogers is a sickly man from Brooklyn who's transformed into super-soldier Captain America to aid in the war effort. Rogers must stop the Red Skull – Adolf Hitler's ruthless head of weaponry, and the leader of an organization that intends to use a mysterious device of untold powers for world domination."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/buttonShare"
+        android:textColor="#fff"
+        android:text="@string/share"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

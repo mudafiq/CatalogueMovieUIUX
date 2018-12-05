@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Katalog Film UI UX</string>
+    <string name="navigation_drawer_open">Buka navigation drawer</string>
+    <string name="navigation_drawer_close">Tutup navigation drawer</string>
+    <string name="action_settings">Pengaturan Ubah Bahasa</string>
+    <string name="search">Cari</string>
+    <string name="nowplaying">Bermain Sekarang</string>
+    <string name="upcoming">Yang Akan Datang</string>
+    <string name="profilename">Mudafiq Riyan Pratama</string>
+    <string name="profileemail">mudafiq.riyan@gmail.com</string>
+    <string name="search_hint">Tulis judul film</string>
+    <string name="detail">RINCIAN</string>
+    <string name="share">BERBAGI</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="rating">Peringkat</string>
+</resources>
