@@ -40,7 +40,7 @@ public class FragmentNowPlaying extends Fragment implements LoaderManager.Loader
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_fragment_now_playing, container, false);
 
-        ((MainActivity) getActivity()).setActionBarTitle("Movie Now Playing");
+        ((MainActivity) getActivity()).setActionBarTitle(getResources().getString(R.string.movienowplaying));
 
         recyclerViewNowPlaying = view.findViewById(R.id.recyclerView_nowplaying);
         recyclerViewNowPlaying.setHasFixedSize(true);

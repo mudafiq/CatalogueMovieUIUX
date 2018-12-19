@@ -58,9 +58,9 @@ public class MovieSearchActivity extends AppCompatActivity implements LoaderMana
     @NonNull
     @Override
     public Loader<ArrayList<Movie>> onCreateLoader(int i, @Nullable Bundle bundle) {
-        if (bundle != null) {
-            queryCari = bundle.getString("BUNDLE_SEARCH");
-        }
+//        if (bundle != null) {
+//            queryCari = bundle.getString("BUNDLE_SEARCH");
+//        }
         return new MovieSearchAsyncTaskLoader(MovieSearchActivity.this, queryCari);
     }
 

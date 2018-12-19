@@ -40,7 +40,7 @@ public class FragmentUpComing extends Fragment implements LoaderManager.LoaderCa
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_fragment_up_coming, container, false);
 
-        ((MainActivity)getActivity()).setActionBarTitle("Movie Up Coming");
+        ((MainActivity)getActivity()).setActionBarTitle(getResources().getString(R.string.movieupcoming));
 
         recyclerViewUpComing = view.findViewById(R.id.recyclerView_upcoming);
         recyclerViewUpComing.setHasFixedSize(true);

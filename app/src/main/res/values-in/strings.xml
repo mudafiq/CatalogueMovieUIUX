@@ -2,10 +2,10 @@
     <string name="app_name">Katalog Film UI UX</string>
     <string name="navigation_drawer_open">Buka navigation drawer</string>
     <string name="navigation_drawer_close">Tutup navigation drawer</string>
-    <string name="action_settings">Pengaturan Ubah Bahasa</string>
+    <string name="action_settings">Ubah Bahasa</string>
     <string name="search">Cari</string>
     <string name="nowplaying">Bermain Sekarang</string>
-    <string name="upcoming">Yang Akan Datang</string>
+    <string name="upcoming">Yang Akan Tayang</string>
     <string name="profilename">Mudafiq Riyan Pratama</string>
     <string name="profileemail">mudafiq.riyan@gmail.com</string>
     <string name="search_hint">Tulis judul film</string>
@@ -13,4 +13,6 @@
     <string name="share">BERBAGI</string>
     <string name="release_date">Tanggal Rilis</string>
     <string name="rating">Peringkat</string>
+    <string name="movienowplaying">Film Main Sekarang</string>
+    <string name="movieupcoming">Film Yang Akan Tayang</string>
 </resources>

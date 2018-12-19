@@ -89,7 +89,8 @@ public class MainActivity extends AppCompatActivity
                     Intent search = new Intent(MainActivity.this, MovieSearchActivity.class);
                     search.putExtra("EXTRA_SEARCH", query);
                     startActivity(search);
-                    //Toast.makeText(MainActivity.this, s, Toast.LENGTH_SHORT).show();
+
+                    //Toast.makeText(MainActivity.this, ""+query, Toast.LENGTH_SHORT).show();
                     return true;
                 }
 
